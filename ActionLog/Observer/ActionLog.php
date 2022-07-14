@@ -19,6 +19,6 @@ class ActionLog implements \Magento\Framework\Event\ObserverInterface
         $logger->info('Action log');
         $logger->info('Module: ' . $this->url->getModuleName());
         $logger->info('Action name: ' . $this->url->getActionName());
-        $logger->info('-------------------')
+        $logger->info('-------------------');
     }
 }
